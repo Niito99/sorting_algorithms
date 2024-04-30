@@ -1,3 +1,12 @@
+#include "sort.h"
+/**
+ * bubble_sort - function that sorts using bubble sort
+ *
+ * @array: array param to be sorted
+ * @size: size of the array to be sorted
+ *
+ * Return: void
+ */
 void bubble_sort(int *array, size_t size)
 {
 	unsigned long i,r,l;
